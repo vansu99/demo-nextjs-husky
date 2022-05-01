@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"pages/**/(*.tsx|*.ts|*.js|*.jsx|*.scss|*.css)\"",
+    "format": "prettier --write \"src/**/(*.tsx|*.ts|*.js|*.jsx|*.scss|*.css)\"",
     "prepare": "husky install",
-    "check-format": "prettier --check \"pages/**/(*.tsx|*.ts|*.js|*.jsx|*.scss|*.css)\"",
+    "check-format": "prettier --check \"src/**/(*.tsx|*.ts|*.js|*.jsx|*.scss|*.css)\"",
     "check-types": "tsc --noEmit",
     "check-lint": "eslint . --ext ts --ext tsx",
     "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build"

@@ -18,7 +18,6 @@ module.exports = {
     'no-console': 'error',
     'require-jsdoc': 'off',
     'no-unused-vars': 'error',
-    'no-use-before-define': 'warn',
     'react/react-in-jsx-scope': 'off',
     'spaced-comment': [
       'error',

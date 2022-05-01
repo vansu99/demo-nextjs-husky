@@ -19,4 +19,4 @@ npm run check-lint ||
 # Everything passes
 echo "All checks passed"
 
-npm run build
+# npm run build

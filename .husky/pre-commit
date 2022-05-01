@@ -10,11 +10,17 @@ npm run check-format ||
 
 # Check tsconfig standards
 npm run check-types ||
-(echo "TypeScript check failed" false;)
+(
+  echo "TypeScript check failed"
+  false;
+)
 
 # Check Eslint standards
 npm run check-lint ||
-(echo "Eslint check failed" false;)
+(
+  echo "Eslint check failed"
+  false;
+)
 
 # Everything passes
 echo "All checks passed"
